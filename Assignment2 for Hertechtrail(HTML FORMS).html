@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+    <link rel="stylesheet" href="Assignment2.css">
+</head>
+<body>
+   <form action="" method="post" >
+    <h1>HTML FORMS</h1>
+    <fieldset>
+        <Legend>Your address</Legend>
+        <div class="fill">
+    <div>
+    <label for="First name">First name</label> 
+    <input type="text" placeholder="" required/> <br/>
+<div>
+    <label for="Last name">Last name</label> 
+    <input type="text" placeholder="" required/>  <br/>
+</div>
+<div>
+    <label for="Street">Street</label> 
+    <input type="text" placeholder="" required/>  <br/>
+</div>
+<div>
+    <label for="City">City</label> 
+    <input type="text" placeholder="" required/>  <br/>
+</div>
+</fieldset>
+<fieldset>
+    <legend>Additional details</legend>
+    <label for="Biography">Biography</label>
+    <input type="text" placeholder=""required/> <br/>
+    <label for="Image">Image</label>
+    <input type="file" placeholder="Choose file"required No file chosen/> <br/>
+    <label for="Age Group">Age Group</label>
+    <select name="age" id="age">
+        <option value="0-9">0 to 9 years</option>
+        <option value="10-19">10 to 19 years</option>
+        <option value="20-29">20 to 29 years</option>
+        <option value="30-39">30 to 39 years</option>
+        <option value="40-49">40 to 49 years</option>
+        <option value="50-59">50 to 59 years</option>
+    </select>
+</fieldset>
+<fieldset>
+    <legend>Interests</legend>
+    <label for="Hobbies">Hobbies</label>
+    <input type="text" placeholder=""required/> <br/>
+    <label for="Favourite car">Favourite car brand?</label>
+    <select name="car" id="car">
+        <option value="Volvo">Volvo</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Honda">Honda</option>
+        <option value="BMW">BMW</option>
+    </select> <br/>
+    <label for="Favourite public transport">Favourite public transport?</label>
+    <select name="transport" id="transport">
+        <optgroup label="Ground">
+            <option value="Train"></option>
+            <option value="Bus"></option>
+        </optgroup>
+        <optgroup label="Water">
+            <option value="Boat"></option>
+            <option value="Ship"></option>
+        </optgroup>
+    </select>
+</fieldset> 
+</form>  
+</body>
+</html>

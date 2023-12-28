@@ -1,0 +1,11 @@
+table{
+    text-align: center;
+    height: 500;
+    width: 800;
+    align-self: center;
+    border: 1 solid black;
+    border-collapse: collapse;
+}
+h1{
+    text-align: center;
+}
